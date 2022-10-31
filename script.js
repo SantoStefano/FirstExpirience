@@ -21,7 +21,7 @@ let timer = setInterval(function() {
         sec = 0;
         return;
     } 
-    if (countPairs == 1) {
+    if (countPairs == 12) {
         clearInterval(timer);
         
         let timeDiv = document.createElement('div');
@@ -55,6 +55,7 @@ document.querySelector('.container').onclick = function(e) {
     if (mas.length == 2 && mas[0].lastChild.lastChild.getAttribute('alt')==mas[1].lastChild.lastChild.getAttribute('alt')) {
        setTimeout(check, 1000);
        countPairs++;
+       
        
     }
     else if (mas.length == 2 && mas[0].lastChild.lastChild.getAttribute('alt')!==mas[1].lastChild.lastChild.getAttribute('alt')) {
