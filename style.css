@@ -46,6 +46,7 @@ img {
    height: 90px;
    font-size: 20px;
    margin: 31%;
+   padding: 5px;
    border-radius: 50%;
    background: cornsilk;
    box-shadow: 0 0 10px 3px white;
