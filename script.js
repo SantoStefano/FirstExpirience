@@ -53,7 +53,7 @@ document.querySelector('.container').onclick = function(e) {
         mas.push(e.target);
     }
     if (mas.length == 2 && mas[0].lastChild.lastChild.getAttribute('alt')==mas[1].lastChild.lastChild.getAttribute('alt')) {
-       setTimeout(check, 1000);
+       setTimeout(check, 500);
        countPairs++;
        
        
