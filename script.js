@@ -48,7 +48,7 @@ let mas = [];
 document.querySelector('.container').onclick = function(e) {
     
    
-    if(e.target.className == 'card') {
+    if(e.target.className == 'card' && mas.length !=2) {
         e.target.lastChild.classList.remove('hide');
         mas.push(e.target);
     }
