@@ -59,7 +59,7 @@ document.querySelector('.container').onclick = function(e) {
        
     }
     else if (mas.length == 2 && mas[0].lastChild.lastChild.getAttribute('alt')!==mas[1].lastChild.lastChild.getAttribute('alt')) {
-       setTimeout(check2, 1200);
+       setTimeout(check2, 500);
     }
     
     function check() {
