@@ -1,5 +1,7 @@
 # FirstExpirience
 
-This is memory card game i was made for my niece. 
-With her favorite charactes from some book.
-Hope you enjoy it too!
+This is a memory card game I made for my niece, featuring her favorite characters from a book. 
+I hope you enjoy it too!
+
+Adaptive Web Design
+https://memory13card.vercel.app/
